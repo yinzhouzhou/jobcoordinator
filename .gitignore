@@ -1,23 +1,47 @@
-# Compiled class file
+#
+# Copyright (c) 2018 Intel Corporation and others.  All rights reserved.
+#
+# This program and the accompanying materials are made available under the
+# terms of the Eclipse Public License v1.0 which accompanies this distribution,
+# and is available at http://www.eclipse.org/legal/epl-v10.html
+#
+
+# sorted alphabetically
+
+# wildcard match
+**/logs
+**/target
 *.class
+*.iml
+*.ipr
+*.iws
+*.pyc
+*.swp
+*~
 
-# Log file
-*.log
+# directory
+bin/
+target-ide/
 
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+# particular files
+.DS_Store
+.checkstyle
+.classpath
+.factorypath
+.fbExcludeFilterFile
+.idea
+.project
+.settings
+.vagrant
+dist
+log.html
+maven-metadata-local.xml
+output.xml
+products
+report.html
+repository
+target
+workspace
+yang-gen-config
+yang-gen-sal
+model/*/src/main/java
